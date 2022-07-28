@@ -27,3 +27,23 @@ a {
     color: #e5e7eb;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+}
