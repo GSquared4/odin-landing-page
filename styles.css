@@ -1,72 +1,78 @@
 body {
-    height: 100vh;
-    margin: 0;  
-    display: flex;
-    flex-direction: column;
+  font-family: "Roboto Flex", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
-   display: flex;
-   justify-content: space-around;
-   background-color: #1f2937;
-   color: #f9faf8;
-   font-size: 24px;
-   padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+  padding: 20px;
 }
 
 ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-    font-size: 18px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  font-size: 18px;
 }
 
 a {
-    color: #e5e7eb;
-    text-decoration: none;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
-.main {
-    display: flex;
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-    background-color: #1f2937;
-    padding-top: 100px;
-    padding-left: 300px;
+.section1 {
+  display: flex;
+  justify-content: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding-top: 100px;
+  padding-left: 300px;
 }
 
-.main-text {
-    display: flex;
-    font-size: 18px;
-    background-color: #1f2937;
-    color: #e5e7eb;
-    padding-left: 300px;
+.s1h1 {
+  display: flex;
+  font-size: 48px;
+  font-weight: 900;
+  color: #e5e7eb;
 }
 
-.sign-up {
-    display: flex;
-    background-color: #3882f6;
-    color: #f9f9f9;
-    padding: 10px;
+.s1h4 {
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
-
-.mtext-wrapper {
-    display: flex;
+.s1btn {
+  display: flex;
+  background-color: #3882f6;
+  color: #f9f9f9;
+  padding: 10px;
 }
 
-
-
+img {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
-    background-color: #1f2937;
-    color: #f9faf8;
-    padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  background-color: red;
+  color: #f9faf8;
+  padding: 30px;
 }
