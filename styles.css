@@ -117,23 +117,73 @@ h5 {
   background-color: #e5e7eb;
 }
 
-h3 {
+.inspiring-quote {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #1f2937;
   flex-wrap: wrap;
   font-size: 36px;
+  font-style: italic;
   padding: 0px 500px;
 }
 
 .thor {
   display: flex;
-  justify-content: flex-end;
-  font-size: 36px;
-  color: #1f2937;
-  padding-right: 400px;
-  background-color: red;
+  justify-content: center;
+  padding-left: 600px;
+  background-color: #e5e7eb;
+}
+
+/*Section 4*/
+
+.section4 {
+  display: flex;
+  background-color: #f9f9f9;
+  height: 300px;
+  padding-top: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.cta-container {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 25px;
+}
+
+.cta,
+.sign-up-product {
+  display: flex;
+  margin-right: 400px;
+  flex-wrap: wrap;
+}
+
+.cta {
+  font-weight: bolder;
+}
+
+.cta-signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9f9f9;
+  background-color: #3882f6;
+  margin-left: 700px;
+  width: 75px;
+  height: 20px;
+  border-radius: 25px;
 }
 
 .footer {
